@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #2e3440;
+    color: white;
+}
+
+.head{
+    display: flex;
+    column-gap: 20px;   
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  
+    align-items: center;
+    cursor: pointer;
+}
+
+.item1{
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.item5
+{
+    margin-left: 20px;
+}
+
+
+.section
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+
+}
+
+img{
+    height: 1fr;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
